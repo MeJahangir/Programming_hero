@@ -12,4 +12,4 @@ var EnumValu = -1;
 // Var _$Box’78 = ‘Monika’; 
 var Box78 = "Monika";
 // Var Home-Address = “Kochu Khet”;
-var homeAddress = "kochu khet";
+var homeAddress = "kochu khet";     
