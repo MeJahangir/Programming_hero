@@ -15,3 +15,7 @@ var serious = true;
 var isFullMarks = true;
 var isSingle = false;
 
+// variable name can not be any keyworks 
+var false = 80;
+var return = true;
+
