@@ -20,5 +20,6 @@ var false = 80;
 var return = true;
 var my home address = 'ullapara';
 var "name" = 'tom wodk";
+var 90club = 23442;
 
 
