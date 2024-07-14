@@ -8,3 +8,9 @@ var firstName = "jahangir";
 var lastName = 'alam';
 var fullName = firstName  + ' ' + lastName;
 console.log(fullName);
+
+var testNumber = '20';
+var testNumber2 = 10;
+var convertNumber = parseInt(testNumber)
+var totalNumber = convertNumber + testNumber2;
+console.log(totalNumber);
