@@ -14,3 +14,9 @@ var testNumber2 = 10;
 var convertNumber = parseInt(testNumber)
 var totalNumber = convertNumber + testNumber2;
 console.log(totalNumber);
+
+var testNumber = '1.20';
+var testNumber2 = 10;
+var convertNumber = parseFloat(testNumber)
+var totalNumber = convertNumber + testNumber2;
+console.log(totalNumber);
