@@ -14,7 +14,7 @@ price1 = 35;
 price1 = price1 + 4;
 console.log(price1);
 
-let names = 'jahangir alam';
-let age = 29;
-let total = names + age;
+let jahangir = 100;
+let munna = 29;
+let total = jahangir + munna;
 console.log(total);
