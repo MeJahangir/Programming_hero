@@ -20,3 +20,4 @@ var testNumber2 = 10;
 var convertNumber = parseFloat(testNumber)
 var totalNumber = convertNumber + testNumber2;
 console.log(totalNumber);
+

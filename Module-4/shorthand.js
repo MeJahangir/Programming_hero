@@ -13,3 +13,8 @@ price1 = 35;
 // add some value to the existing value
 price1 = price1 + 4;
 console.log(price1);
+
+let names = 'jahangir alam';
+let age = 29;
+let total = names + age;
+console.log(total);
