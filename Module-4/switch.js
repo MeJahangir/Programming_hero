@@ -21,3 +21,5 @@ switch (weekDay) {
         default:
         console.log('Not a day');
 }
+
+
