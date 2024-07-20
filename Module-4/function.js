@@ -89,3 +89,63 @@ function anoglobalFunction() {
     localFnc();
 }
 anoglobalFunction();
+
+//global scope object add * sob jaygate add kora jabe
+var person = {
+    name: 'jahangir alam',
+    age: 24
+}
+console.log(typeof(person));
+
+//object function add * only functon er vitor add kora jabe
+function objectFunction() {
+    var localObject = {
+        name : 'jahangir alam',
+        age : 25
+    }
+    console.log(localObject);
+}
+objectFunction();
+// console.log(localObject); // arror dibo, karon functon er baire call kora jabe na
+
+//global variable add 
+function autoVar() {
+    myName = 'md jahangir alam';
+}
+autoVar();
+
+console.log(myName);// sob jayga theke call korty parbo * global variable
+
+
+// parent function and child function add 
+function parentFuncton() {
+    var m = 10;
+    function childFunction() {
+        var n = 5;
+        console.log('Sum : ' + (m + n));
+    }
+   return childFunction;
+}
+var returnFun = parentFuncton();
+returnFun();
+
+function aParentFunc(A) {
+    return function (B) {
+        console.log('Sum : ' + (A + B));
+    }
+}
+aParentFunc(10)(10);
+//example 
+var aParentVer = aParentFunc(10);
+var total = aParentVer(11);
+
+//IIFE Immediately invoked function expresion add 
+function aDemoFunc() {
+    console.log("Hello World");
+}
+aDemoFunc();
+
+//example:
+(function aDemoFunc() {
+    console.log('Hello World');
+})(); // same output return korbe
