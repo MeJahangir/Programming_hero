@@ -61,3 +61,31 @@ function test() {
     var sum = a + b;
     console.log('Sum: ' + sum);
 }
+
+
+// function 2 prokar
+// 1. local function
+//2. global function
+function localFunction() {
+    var local = 'I am local to my own function';
+    console.log(local);
+}
+localFunction();
+
+// global function add 
+var globalvar = "I am a Global variable ";
+function globalScope() {
+    console.log('Inside a function: ' + globalvar );
+}
+globalScope();
+console.log('Outside ' + globalvar);
+
+//Multiple function add
+function anoglobalFunction() {
+    console.log("Global Function");
+    function localFnc() {
+        console.log('Local Function');
+    }
+    localFnc();
+}
+anoglobalFunction();
