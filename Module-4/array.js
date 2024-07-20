@@ -14,3 +14,9 @@ console.log(test);
 var arrayName = ['joy','alam','nur','kasem'];
 arrayName.splice(3);// 3 number object er por theke delet hobe
 console.log(arrayName);
+
+
+// var namese = ['jahangir','alam','joy','monir','sumon','habib'];
+console.log(names.indexOf('nur'));// index check
+names.splice(1,3)
+console.log(names);
