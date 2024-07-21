@@ -11,3 +11,27 @@ jahangir.welcomeMsg = function () {
 
 jahangir.welcomeMsg();
 console.log(jahangir.welcomeMsg);// object er value check
+
+
+const testObj = {
+        names : 'jahangir alam',
+        age : 24,
+        job : 'Student',
+        nur : {
+            names : 'Nurmohammad',
+            age : 40,
+            job : 'Privet job holder',
+            House : 'Barahar',
+            Sobur : {
+                names : 'Sobur miya',
+                age : 11,
+                job : 'Privet job holder',
+                House : 'Defolbari',
+                Msg : function () {
+                    console.log('Your information : ' + this.names);
+                }
+            }
+        }
+    };
+    
+testObj.nur.Sobur.Msg();

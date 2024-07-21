@@ -11,7 +11,7 @@ function myFunction() {
 myFunction();
 
 function testFunction(x, y) {
-    let sum = x + y;
+    let sum = x + y;              
     return sum;
 }
 
@@ -149,3 +149,6 @@ aDemoFunc();
 (function aDemoFunc() {
     console.log('Hello World');
 })(); // same output return korbe
+
+// this k console korle object dekhabe
+
