@@ -35,3 +35,18 @@ const testObj = {
     };
     
 testObj.nur.Sobur.Msg();
+
+
+var callFunc = {
+    fullName : 'Md jahangir alam',
+    age : 22,
+    address : 'Barahar Defolbari',
+    phone : 01909597475,
+    anotherObj : {
+       Name : 'alam jahangir',
+        value : function () {
+            console.log(this);
+        }
+    }
+};
+callFunc.anotherObj.value();
