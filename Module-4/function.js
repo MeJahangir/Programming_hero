@@ -152,3 +152,13 @@ aDemoFunc();
 
 // this k console korle object dekhabe
 
+
+
+function anyFunc(one, two) {
+    var sum = one  + two;
+    console.log(sum);
+}
+anyFunc(10, 29);
+
+// Next task
+// 1. function call and next page function mathord include add. 
