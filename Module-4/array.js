@@ -40,5 +40,7 @@ const array = [
         5,3,4,0
     ]
 ];
-
-console.log(array[4][3]); //result : 0 print hobe
+array.unshift(Six = [
+    2,4,4,0
+]); // fast new array add
+console.log(array[0]); //result : 0 print hobe
