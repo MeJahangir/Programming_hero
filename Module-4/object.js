@@ -41,7 +41,7 @@ var callFunc = {
     fullName : 'Md jahangir alam',
     age : 22,
     address : 'Barahar Defolbari',
-    phone : 01909597475,
+    phone : '01909597475',
     anotherObj : {
        Name : 'alam jahangir',
         value : function () {
