@@ -1,4 +1,4 @@
-for (let index = 0; index <10; index++) {
+for (let index = 0; index < 10; index++) {
     const element = index ;
     console.log(element);
 }
@@ -29,3 +29,11 @@ for (let x = 0; x <= 20; x++) {
     // const element = x;
     console.log(x);
 };
+for (let m = 0; m <= 20; m++) {
+    // const element = x;
+    console.log(m);
+};
+
+  
+var joy = "jahangir alam joy";
+console.log(joy);
