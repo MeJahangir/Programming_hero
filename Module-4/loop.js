@@ -35,5 +35,3 @@ for (let m = 0; m <= 20; m++) {
 };
 
   
-var joy = "jahangir alam joy";
-console.log(joy);
