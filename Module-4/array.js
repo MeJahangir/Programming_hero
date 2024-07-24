@@ -42,5 +42,9 @@ const array = [
 ];
 array.unshift(Six = [
     2,4,4,0
-]); // fast new array add
-console.log(array[0]); //result : 0 print hobe
+]);// fast new array add
+console.log(array[0]); //result : 0 print hobe.
+
+var arr = [0,1,2,3,4,5];
+arr.push(100)
+console.dir(arr);

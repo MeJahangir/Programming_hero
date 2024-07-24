@@ -68,3 +68,25 @@ rahimAge('Hello...');
 var rahimAgeCalculate = karim.age.bind(rahim);
 rahimAgeCalculate(2016,'hello ahmed');
 rahimAgeCalculate(2015, 'test masage');
+
+// Object test
+
+var samir = {
+    name: 'Samir Hossain',
+    age: 22,
+    job: 'Student'
+};
+var Kinan = {
+    name: 'Kinan Hossain',
+    age: 29,
+    job: 'Businessman'
+};
+var Jamil = {
+    name: 'Jemil Hossain',
+    job: 'Driver'
+};
+var zonayed = {
+    name: 'Zonayed Ahmed',
+    age: 21,
+    job: 'Developer'
+};
