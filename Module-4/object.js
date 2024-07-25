@@ -71,22 +71,23 @@ rahimAgeCalculate(2015, 'test masage');
 
 // Object test
 
-var samir = {
-    name: 'Samir Hossain',
-    age: 22,
-    job: 'Student'
+var samir = {name: 'Samir Hossain',age: 22,job: 'Student'};
+var Kinan = {name: 'Kinan Hossain',age: 29,job: 'Businessman'};
+var Jamil = {name: 'Jemil Hossain',job: 'Driver'};
+var zonayed = {name: 'Zonayed Ahmed',age: 21,job: 'Developer'};
+
+console.log(samir.name);
+console.log(samir.age);
+console.log(samir.job);//object k call kore result dekty parbo
+
+
+var Person = function (name , age, job) {
+    this.name = name;
+    this.age = age;
+    this.job = job;
 };
-var Kinan = {
-    name: 'Kinan Hossain',
-    age: 29,
-    job: 'Businessman'
-};
-var Jamil = {
-    name: 'Jemil Hossain',
-    job: 'Driver'
-};
-var zonayed = {
-    name: 'Zonayed Ahmed',
-    age: 21,
-    job: 'Developer'
-};
+Person(samir.age);
+
+//New object add kora
+const jahangirs = new Person('md jahangir alam', 25, 'privet job');
+console.log(jahangirs.job);
