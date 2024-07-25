@@ -49,7 +49,7 @@ var callFunc = {
         }//.call(callFunc)
     }
 };
-callFunc.anotherObj.value.call(callFunc); // call mathord add.
+callFunc.anotherObj.value.call(); // call mathord add.
 
 
 var karim = {
@@ -70,24 +70,34 @@ rahimAgeCalculate(2016,'hello ahmed');
 rahimAgeCalculate(2015, 'test masage');
 
 // Object test
-
-var samir = {name: 'Samir Hossain',age: 22,job: 'Student'};
+var kalam = {name: 'kalam',age: 22,job: 'Student', subject: 'Humanitis'};
 var Kinan = {name: 'Kinan Hossain',age: 29,job: 'Businessman'};
 var Jamil = {name: 'Jemil Hossain',job: 'Driver'};
 var zonayed = {name: 'Zonayed Ahmed',age: 21,job: 'Developer'};
 
-console.log(samir.name);
-console.log(samir.age);
-console.log(samir.job);//object k call kore result dekty parbo
+console.log(kalam.name);
+console.log(kalam.age);
+console.log(kalam.job);//object k call kore result dekty parbo
 
 
-var Person = function (name , age, job) {
+var Person = function (name , age, job,subject) {
     this.name = name;
     this.age = age;
     this.job = job;
+    this.subject = subject;
+    this.dateOfBirth = function () {
+        console.log(this.name + ' is bron in ' + (2024 - this.age));
+    }
 };
-Person(samir.age);
+
 
 //New object add kora
 const jahangirs = new Person('md jahangir alam', 25, 'privet job');
-console.log(jahangirs.job);
+console.log(jahangirs);
+
+var joy = {name: 'joy',age: 22,job: 'Student', subject: 'Humanitis'};
+
+
+// console.log(Test.call());
+// new add in object
+
