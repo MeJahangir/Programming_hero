@@ -1,20 +1,10 @@
-var Person = function (name, age, job) {
-    this.name = name;
-    this.age = age;
-    this.job = job;
-};
+// task 01 
+var cash = 1000;
+var apple = 700;
+var mango = 300;
 
-//--------//
-var info = {
-    name : 'jahangir alam',
-    age : 25, 
-    job : 'privit'
-};
-
-var Teacher = function (name, age, job, subject) {
-    Person.call(this, name, age, job);
-    this.subject = subject; // Fix: initialize the subject property
-};
-console.log(info.name);
-var anyObj = new Teacher('xxxx', 0, 'xxx', 'xmm');
-console.log(anyObj); // Fix: log the created object
+console.log(cash);
+const cost = apple + mango;
+const totalCash = cash - cost;
+console.log(cost);
+console.log(totalCash);
