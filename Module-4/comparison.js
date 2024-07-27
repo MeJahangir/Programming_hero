@@ -30,3 +30,22 @@ if (isGraduated == false && (salary > 76000 || cars >= 1)) { //bracket na dile k
 }else{
     console.log('You are Hrong');
 }
+
+// else if condition add
+var myMany = 100;
+var coffee = 40;
+var bread = 30;
+var tea = 10;
+
+if (coffee < myMany) {
+    console.log('Mama coffee khabo');
+} 
+else if (bread < myMany) {
+    console.log('Ami bread khabo');
+}
+else if(tea < myMany) {
+    console.log('Taka nai cha khabo');
+}
+else{
+    console.log('Amar taka nai, kisu khabo na');
+}
