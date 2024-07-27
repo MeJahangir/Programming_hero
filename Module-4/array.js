@@ -48,3 +48,23 @@ console.log(array[0]); //result : 0 print hobe.
 var arr = [0,1,2,3,4,5];
 arr.push(100)
 console.dir(arr);
+
+
+const  testarray = ['1',2,3,4,5,6,7,8,9];//array declare kora.
+console.log(testarray.length); //length count hobe 1 theke
+console.log(testarray);// full array print hobe
+console.log(testarray[1]);//index check, 0 theke index count hobe.
+
+// array index value change.
+testarray[0] = '100'; 
+console.log(parseInt(testarray));//string k number a convart.
+var positionIndex = testarray.indexOf(8);//index check..
+console.log(positionIndex);
+
+var arrays = ['one', 'two', 'three', 'four'];//array declare
+console.log(arrays);
+arrays.push('five');//last array add
+console.log(arrays);
+arrays.pop();// last array delet
+console.log(arrays);
+
