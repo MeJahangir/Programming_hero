@@ -15,5 +15,5 @@ if (math == true) {
     }
 } else {
     console.log("I don't like math");
-};
+};  
 console.log('hello world');

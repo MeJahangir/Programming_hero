@@ -34,4 +34,28 @@ for (let m = 0; m <= 20; m++) {
     console.log(m);
 };
 
-  
+// string type variable
+var bottle = 'water';
+var bottleColor = 'yollow';
+//Number type variable
+var sunglassPrice = 120;
+var penColor = 'blue';
+//boolean type variable
+var isExpensive = true;
+
+// array declare 
+var tableItems = ['bottle', 'pen', 'mouse', 'sunglass', 'paper'];
+var items = tableItems[3];// kono array k khuje pawa
+console.log(items);
+tableItems[4] = 'Notebook';// array value change.
+console.log(tableItems);
+console.log(tableItems.length);//length check result 5
+
+// conditionals loops 
+if (tableItems.length > 4) {
+    console.log('pass');
+} else if (tableItems[3] == 'pen') {
+    console.log('good');
+}else{
+    console.log('nothing');
+};

@@ -48,4 +48,4 @@ else if(tea < myMany) {
 }
 else{
     console.log('Amar taka nai, kisu khabo na');
-};
+}; 
