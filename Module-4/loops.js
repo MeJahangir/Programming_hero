@@ -69,4 +69,4 @@ if (cashTaka >= 60000) {
     console.log('You will by an used laptop');
 }else{
     console.log('You will use you mobile phone');
-}
+};
