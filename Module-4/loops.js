@@ -59,3 +59,14 @@ if (tableItems.length > 4) {
 }else{
     console.log('nothing');
 };
+
+var cashTaka = 60000;
+if (cashTaka >= 60000) {
+    console.log('You will by gaming laptop');
+} else if ( cashTaka <= 40000) {
+    console.log('You will by lenovo yoga');
+}else if (cashTaka <= 20000) {
+    console.log('You will by an used laptop');
+}else{
+    console.log('You will use you mobile phone');
+}
