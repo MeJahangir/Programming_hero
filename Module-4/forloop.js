@@ -13,4 +13,3 @@ for (let joy = 100; joy < 200; joy++) {
     }
     
 };
-g
