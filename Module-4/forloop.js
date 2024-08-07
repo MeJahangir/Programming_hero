@@ -13,3 +13,7 @@ for (let joy = 100; joy < 200; joy++) {
     }
     
 };
+
+array.forEach(element => {
+    
+});
