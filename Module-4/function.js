@@ -164,3 +164,11 @@ anyFunc(10, 29);
 
 // Next task
 // 1. function call and next page function mathord include add. 
+
+function add (num1, num2) {
+    console.log(num1 , num2);
+    var sum = num1 + num2;
+    return sum;
+}
+var total = add(40, 70);
+console.log('Total = ', total);
