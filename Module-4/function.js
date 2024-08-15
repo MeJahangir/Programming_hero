@@ -172,3 +172,11 @@ function add (num1, num2) {
 }
 var total = add(40, 70);
 console.log('Total = ', total);
+
+function bringSingara(money) {
+    var singaraPrice = 10;
+    var quntity = money / singaraPrice;
+    return quntity;
+}
+var singaras = bringSingara(200);
+console.log('Singaras = ', singaras);
