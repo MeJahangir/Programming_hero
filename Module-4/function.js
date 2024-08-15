@@ -178,5 +178,21 @@ function bringSingara(money) {
     var quntity = money / singaraPrice;
     return quntity;
 }
-var singaras = bringSingara(200);
+var myTaka = 150;
+var singaras = bringSingara(myTaka);
 console.log('Singaras = ', singaras);
+
+
+// Assignment marks add
+function getAvarege(assignment1,assignment2,assignment3) {
+    const total = assignment1 + assignment2 + assignment3;
+    const avarage = total / 3;
+    return avarage;
+}
+const assignment1Marks = 44;
+const assignment2Marks = 98;
+const assignment3Marks = 69;
+
+var myAvarage = getAvarege(assignment1Marks, assignment2Marks, assignment3Marks);
+console.log('My avarage marks = ', myAvarage);
+
