@@ -8,3 +8,5 @@ const cost = apple + mango;
 const totalCash = cash - cost;
 console.log(cost);
 console.log(totalCash);
+
+test code//
