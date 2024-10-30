@@ -38,3 +38,20 @@ switch (day) {
         console.log('ajke amar mon valo nai');
         break;
 };
+
+// credit and debit info switch cash
+let paymentMethod = "credit";
+
+switch (paymentMethod) {
+  case "cash":
+    console.log("You chose to pay with cash.");
+    break;
+  case "credit":
+    console.log("You chose to pay with credit.");
+    break;
+  case "debit":
+    console.log("You chose to pay with debit.");
+    break;
+  default:
+    console.log("Unknown payment method.");
+}
